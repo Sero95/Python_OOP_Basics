@@ -34,3 +34,4 @@ class D(C, A, Calculator):  # D is child class drived class subclass
 
 z = D("Taisir")
 z.Summ(4, 3)
+print(D.mro())    # to know this class inherites from which class parents 
